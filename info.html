@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Aleph — Bookshop App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div id="app">
+
+  <!-- Panel Lateral -->
+  <div class="panel panel-left panel-cover">
+    <div class="view"><div class="page"><div class="page-content">
+      <div class="list"><ul>
+        <li><a href="/" class="list-button">Inicio</a></li>
+        <li><a href="/list/" class="list-button">Listado de libros</a></li>
+        <li><a href="/profile/" class="list-button">Perfil</a></li>
+      </ul></div>
+    </div></div></div>
+  </div>
+
+  <!-- Vista Principal -->
+  <div class="view view-main view-init">
+    <section class="page" data-name="info">
+      <nav class="navbar">
+        <div class="navbar-inner">
+          <div class="left">
+            <a href="#" class="link panel-open" data-panel="left"><i class="material-icons">menu</i></a>
+          </div>
+          <div class="title">Bookshop App</div>
+        </div>
+      </nav>
+
+      <section class="page-content info-page">
+        <!-- Slider -->
+        <div class="swiper-container swiper-init" data-pagination=".swiper-pagination">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/el-aleph.jpg" alt="Portada El Aleph"></div>
+            <div class="swiper-slide"><img src="img/El-AlephSlide2.jpg" alt="Detalle El Aleph"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="block info-details">
+          <h2>El Aleph</h2>
+          <p class="price">$8.99</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Fusce at quam sed lectus commodo placerat.</p>
+        </div>
+
+        <div class="block">
+          <a href="#" class="button button-large button-fill">Comprar ahora</a>
+        </div>
+      </section>
+    </section>
+  </div>
+</div>
+
+<script src="js/framework7.bundle.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
+
